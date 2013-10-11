@@ -26,7 +26,7 @@ class Note{
 
   void move() {
     if(!hit){
-      speed = position.x > center ? -2 : 2;
+      speed = position.x > center ? -1 : 1;
       position.x+=speed;
     }else{  
       speed=2;   
